@@ -1,0 +1,27 @@
+{
+  "name": "customcord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "electron": "^23.1.1",
+    "electron-builder": "^23.6.0",
+    "electron-prebuilt-compile": "^8.2.0"
+  },
+  "dependencies": {
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "^8.2.0"
+  }
+}
